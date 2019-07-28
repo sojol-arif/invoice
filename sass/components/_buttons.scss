@@ -1,0 +1,25 @@
+// Button Styles
+a {
+  display: inline-block;
+  text-decoration: none !important;
+
+  &:hover {
+    outline: none;
+  }
+}
+
+.ic-btn{
+  border:none;
+  @include border-radius(4px);
+  background-color:transparent;
+  font-size: 24px;
+}
+.ic-btn-primary{
+  background-color: $primary;
+  color:$white;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  padding-left: 25px;
+  padding-right: 25px;
+}
